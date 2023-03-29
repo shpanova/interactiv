@@ -61,10 +61,7 @@ a{
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1443px){
-  .one1{
-    color: purple;
-  }
+@media (min-width: 1024px) and (max-width: 1439px){
 
 /* ___________________ 1 экран _________________ */
 
