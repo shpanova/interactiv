@@ -350,10 +350,37 @@ a{
 
 /* _________________ кнопки ___________________ */
 
-.stl, .stl1{
+.obvodka2{
+  width: 440px;
+  height: 108px;
+  border: 1px solid;
   position: absolute;
   bottom: 80px;
   right: 80px;
+  border-radius: 200px;
+  border-color:  #5873FF;
+}
+
+.obvodka2:hover{
+  box-shadow:0 0 6px #4A3DE1;
+}
+
+.obvodka22{
+  width: 440px;
+  height: 108px;
+  border: 1px solid;
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  border-radius: 200px;
+  border-color:  grey;
+}
+
+
+.stl, .stl1{
+  position: absolute;
+  bottom: 90px;
+  right: 90px;
   width: 120px;
   height: 88px;
   border: none;
@@ -373,8 +400,8 @@ a{
 
 .sebut, .sebut1{
   position: absolute;
-  bottom: 80px;
-  right: 200px;
+  bottom: 90px;
+  right: 210px;
   width: 300px;
   height: 88px;
   border: none;
@@ -558,7 +585,7 @@ a{
   box-shadow:0 0 6px #4A3DE1;
 }
 
-/* _________________________________________ 5 секция _________________________ */
+/* _________________________________________ 6 секция _________________________ */
 
 /* _________________ кнопки ___________________ */
 
@@ -852,7 +879,7 @@ transform: scale(1.1);
 }
 .eye, .eye1, .eye2, .eye3, .eye4, .eye5, .eye6, .eye7, .eye8,
 .eye9, .eye10, .eye11, .eye12, .eye13, .eye14, .eye15, .eye16,
-.eye17, .eye18, .eye19, .eye20, .eye21{
+.eye17, .eye18, .eye19, .eye20, .eye21, .eye22, .eye23{
   position: absolute;
   height: 12px;
   width: 12px;
@@ -1459,28 +1486,43 @@ transform: scale(1.1);
 /* _________________ цветные квадраты для средних экранов ___________________ */
 
 #draggable31{
-  margin-left: 2%;
-  margin-top: 18%;
-  width:12px;
-  height: 12px;
+  margin-left: 2vw;
+  margin-top: 32vh;
+
 }
 
 #draggable32{
-  margin-left: 54%;
-  margin-top: -5%;
-  width:12px;
-  height: 12px;
+  margin-left: 26vw;
+  margin-top: 84vh;
+}
+
+#draggable34{
+  margin-left: 76vw;
+  margin-top: 20vh;
+
+}
+
+#draggable35{
+  margin-left: 56vw;
+  margin-top: 87vh;
+}
+
+#draggable37{
+  margin-left: 94vw;
+  margin-top: 27vh;
 }
 
 
 /* _________________ квадраты с обводкой для средних экранов ___________________ */
 
 #draggable33 {
-  margin-left: 86%;
-  margin-top: -7%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: 40vw;
+  margin-top: 88vh;
+
+}
+
+#draggable36 {
+  margin-left: 88vw;
+  margin-top: 6vh;
+
 }

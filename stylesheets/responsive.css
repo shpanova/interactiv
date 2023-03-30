@@ -36,7 +36,7 @@ a{
 
 .eye, .eye1, .eye2, .eye3, .eye4, .eye5, .eye6, .eye7, .eye8,
 .eye9, .eye10, .eye11, .eye12, .eye13, .eye14, .eye15, .eye16,
-.eye17, .eye18, .eye19, .eye20, .eye21{
+.eye17, .eye18, .eye19, .eye20, .eye21, .eye22, .eye23{
   height: 14px;
   width: 14px;
 }
@@ -50,6 +50,95 @@ a{
   width: 80px;
 }
 
+/* ___________________ 2 экран _________________ */
+
+.ramka{
+  position: absolute;
+  left: 80px;
+  top: 400px;
+  width: 940px;
+  height: 120px;
+}
+
+.inp1{
+  position: absolute;
+  top: 440px;
+  left: 110px;
+  width: 700px;
+  height: 40px;
+  font-size: 44px;
+}
+
+
+/* ___________________ заголовки и цифры на всех экранов _________________ */
+
+h2{
+  font-size: 104px;
+  line-height: 104px;
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+h4{
+  font-family: 'Jura', sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 560px;
+  left: 80px;
+}
+
+h3{
+  font-family: 'Jura', sans-serif;
+  font-size: 120px;
+  line-height: 120px;
+  position: absolute;
+  bottom: 80px;
+}
+
+.zyfraone{
+  left: 80px;
+}
+
+.zyfratwo{
+  left: 130px;
+}
+
+/* ___________________ кнопки всех экранов _________________ */
+
+.obvodka2, .obvodka3, .obvodka4, .obvodka5,
+.obvodka22, .obvodka33, .obvodka44, .obvodka55{
+  width: 560px;
+  height: 130px;
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+}
+
+.sebut, .sebut1{
+  position: absolute;
+  bottom: 90px;
+  right: 230px;
+  width: 400px;
+  height: 110px;
+}
+
+.stl, .stl1{
+  position: absolute;
+  bottom: 90px;
+  right: 90px;
+  width: 140px;
+  height: 110px;
+}
+
+/* ___________________ 3 экран _________________ */
+
+
+
+
+
 }
 
 
@@ -62,6 +151,7 @@ a{
 }
 
 @media (min-width: 1024px) and (max-width: 1439px){
+
 
 /* ___________________ 1 экран _________________ */
 
@@ -92,7 +182,7 @@ a{
 
 .eye, .eye1, .eye2, .eye3, .eye4, .eye5, .eye6, .eye7, .eye8,
 .eye9, .eye10, .eye11, .eye12, .eye13, .eye14, .eye15, .eye16,
-.eye17, .eye18, .eye19, .eye20, .eye21{
+.eye17, .eye18, .eye19, .eye20, .eye21, .eye22, .eye23{
   height: 10px;
   width: 10px;
 }
@@ -126,26 +216,765 @@ a{
   margin-top: 96vh;
 }
 
+/* ___________________ 2 экран _________________ */
+
+.ramka{
+  position: absolute;
+  left: 50px;
+  top: 280px;
+  width: 820px;
+  height: 80px;
+}
+
+.inp1{
+  position: absolute;
+  top: 300px;
+  left: 76px;
+  width: 700px;
+  height: 40px;
+}
+
+/* ___________________ заголовки и цифры на всех экранов _________________ */
+
+h2{
+  font-size: 72px;
+  line-height: 1;
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+h4{
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 384px;
+  left: 50px;
+}
+
+h3{
+  font-family: 'Jura', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.zyfraone{
+  left: 50px;
+}
+
+.zyfratwo{
+  left: 90px;
+}
+
+/* ___________________ кнопки всех экранов _________________ */
+
+.obvodka2, .obvodka3, .obvodka4, .obvodka5,
+.obvodka22, .obvodka33, .obvodka44, .obvodka55{
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.sebut, .sebut1{
+  position: absolute;
+  bottom: 60px;
+  right: 170px;
+  width: 270px;
+  height: 80px;
+}
+
+.stl, .stl1{
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  width: 110px;
+  height: 80px;
+}
+
+/* ___________________ 3 экран _________________ */
+
 }
 
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 834px) and (max-width: 1023px){
   .one1{
     color: pink;
   }
+
+
+  #draggable2, #draggable8, #draggable15,
+  #draggable23, #draggable26, #draggable29{
+    display: none;
+  }
+
+  .one1{
+    font-size: 72px;
+    line-height: 72px;
+    width: 600px;
+  }
+
+  .fibut{
+    width: 480px;
+    height: 68px;
+    margin-top: -78px;
+  }
+
+  .obvodka1{
+    width: 500px;
+    height: 88px;
+  }
+
+  .onebtn{
+    margin-top: 32px;
+  }
+
+  a{
+    font-size: 28px;
+    line-height: 28px;
+  }
 }
+
+/* ___________________ 2 экран _________________ */
+
+.ramka{
+  position: absolute;
+  left: 44px;
+  top: 250px;
+  width: 610px;
+  height: 80px;
+}
+
+.inp1{
+  position: absolute;
+  top: 270px;
+  left: 66px;
+  width: 500px;
+  height: 40px;
+}
+
+/* ___________________ заголовки и цифры на всех экранов _________________ */
+
+h2{
+  font-size: 64px;
+  line-height: 1;
+  color: white;
+  position: absolute;
+  top: 44px;
+  left: 44px;
+}
+
+h4{
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 370px;
+  left: 44px;
+}
+
+h3{
+  font-family: 'Jura', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  position: absolute;
+  bottom: 44px;
+}
+
+.zyfraone{
+  left: 44px;
+}
+
+.zyfratwo{
+  left: 84px;
+}
+
+/* ___________________ кнопки всех экранов _________________ */
+
+.obvodka2, .obvodka3, .obvodka4, .obvodka5,
+.obvodka22, .obvodka33, .obvodka44, .obvodka55{
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  bottom: 44px;
+  right: 44px;
+}
+
+.sebut, .sebut1{
+  position: absolute;
+  bottom: 54px;
+  right: 164px;
+  width: 270px;
+  height: 80px;
+}
+
+.stl, .stl1{
+  position: absolute;
+  bottom: 54px;
+  right: 54px;
+  width: 110px;
+  height: 80px;
+}
+
+/* _________________ квадраты всех экранов___________________ */
+
+#draggable31{
+  margin-left: 2vw;
+  margin-top: 72vh;
+
+}
+
+#draggable32{
+  margin-left: 26vw;
+  margin-top: 84vh;
+}
+
+#draggable34{
+  margin-left: 72vw;
+  margin-top: 14vh;
+
+}
+
+#draggable35{
+  margin-left: 96vw;
+  margin-top: 74vh;
+}
+
+#draggable37{
+  margin-left: 94vw;
+  margin-top: 27vh;
+}
+
+/* _________________ квадраты с обводкой для средних экранов ___________________ */
+
+#draggable33 {
+  margin-left: 30vw;
+  margin-top: 94vh;
+
+}
+
+#draggable36 {
+  margin-left: 94vw;
+  margin-top: 12vh;
+
+}
+
+
+/* ___________________ 3 экран _________________ */
+
 
 /* -------------------------------------------------------------------------414 */
 
 
-@media (min-width: 414px) and (max-width: 767px){
+@media (min-width: 413px) and (max-width: 833px){
 .one1{
   color: red;
 }
+
+.eye, .eye1, .eye2, .eye3, .eye4, .eye5, .eye6, .eye7, .eye8,
+.eye9, .eye10, .eye11, .eye12, .eye13, .eye14, .eye15, .eye16,
+.eye17, .eye18, .eye19, .eye20, .eye21, .eye22, .eye23{
+  height: 10px;
+  width: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 413px){
+.box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+  height: 44px;
+  width: 44px;
+}
+
+.line1, .line2, .line3, .line4, .line5{
+  width: 64px;
+}
+
+#draggable2, #draggable8, #draggable15,
+#draggable23, #draggable26, #draggable29, #draggable21,
+ #draggable4, #draggable18, #draggable16 {
+  display: none;
+}
+
+#draggable3 {
+  margin-left: 12vw;
+  margin-top: 22vh;
+}
+
+#draggable5 {
+  margin-left: -1vw;
+  margin-top: 30vh;
+}
+
+#draggable6 {
+  margin-left: 78vw;
+  margin-top: 96vh;
+}
+
+#draggable7{
+  margin-left: 45vw;
+  margin-top: 10vh;
+}
+
+#draggable9{
+  margin-left: 22vw;
+  margin-top: 18vh;
+}
+
+#draggable10{
+  margin-left: 60vw;
+  margin-top: 28vh;
+}
+
+#draggable11{
+  margin-left: 84vw;
+  margin-top: 3vh;
+}
+
+#draggable13{
+  margin-left: 6vw;
+  margin-top: 82vh
+}
+
+#draggable17{
+  margin-left: 66vw;
+  margin-top: 12vh;
+}
+
+#draggable19{
+  margin-left: 10vw;
+  margin-top: 70vh;
+}
+
+#draggable28 {
+  margin-left: 64vw;
+  margin-top: 74vh;
+}
+
+#draggable20{
+  margin-left: 20vw;
+  margin-top: 94vh;
+}
+
+#draggable24{
+  margin-left: 50vw;
+  margin-top: 88vh;
+}
+
+#draggable25 {
+  margin-left: 88vw;
+  margin-top: 84vh;
+}
+
+#draggable30{
+  margin-left: 96vw;
+  margin-top: 74vh;
+}
+
+.one1{
+  font-size: 42px;
+  line-height: 42px;
+  width: 440px;
+}
+
+.fibut{
+  width: 320px;
+  height: 56px;
+  margin-top: -66px;
+}
+
+.obvodka1{
+  width: 340px;
+  height: 76px;
+}
+
+.onebtn{
+  margin-top: 32px;
+}
+
+a{
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* ___________________ 2 экран _________________ */
+
+.ramka{
+  position: absolute;
+  left: 40px;
+  top: 240px;
+  width: 330px;
+  height: 56px;
+}
+
+.inp1{
+  position: absolute;
+  top: 248px;
+  left: 56px;
+  width: 300px;
+  height: 40px;
+  font-size: 24px;
+}
+
+/* ___________________ заголовки и цифры на всех экранов _________________ */
+
+h2{
+  font-size: 42px;
+  line-height: 1;
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 320px;
+}
+
+h4{
+  font-family: 'Jura', sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  top: 320px;
+  left: 50px;
+}
+
+.zyfraone{
+  display: none;
+}
+
+.zyfratwo{
+  display: none;
+}
+
+/* ___________________ кнопки всех экранов _________________ */
+
+.obvodka2, .obvodka3, .obvodka4, .obvodka5,
+.obvodka22, .obvodka33, .obvodka44, .obvodka55{
+  width: 90vw;
+  height: 88px;
+  position: absolute;
+  bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  left: 5vw;
+
+}
+
+.sebut, .sebut1{
+  position: absolute;
+  bottom: 50px;
+  width: 60vw;
+  left: 8vw;
+  height: 68px;
+}
+
+.stl, .stl1{
+  position: absolute;
+  bottom: 50px;
+  width: 24vw;
+  height: 68px;
+  right: 8vw;
+}
+
+/* _________________ квадраты всех экранов___________________ */
+
+#draggable31{
+  margin-left: 70vw;
+  margin-top: 80vh;
+
+}
+
+#draggable32{
+  margin-left: 26vw;
+  margin-top: 78vh;
+}
+
+#draggable34{
+  margin-left: 86vw;
+  margin-top: 4vh;
+
+}
+
+#draggable35{
+  margin-left: 96vw;
+  margin-top: 74vh;
+}
+
+#draggable37{
+  margin-left: 94vw;
+  margin-top: 22vh;
+}
+
+/* _________________ квадраты с обводкой для средних экранов ___________________ */
+
+#draggable33 {
+  margin-left: -1vw;
+  margin-top: 72vh;
+
+}
+
+#draggable36 {
+  margin-left: 92vw;
+  margin-top: 12vh;
+
+}
+
+
+/* ___________________ 3 экран _________________ */
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 412px){
   .one1{
     color: blue;
   }
+
+  .eye, .eye1, .eye2, .eye3, .eye4, .eye5, .eye6, .eye7, .eye8,
+  .eye9, .eye10, .eye11, .eye12, .eye13, .eye14, .eye15, .eye16,
+  .eye17, .eye18, .eye19, .eye20, .eye21, .eye22, .eye23{
+    height: 8px;
+    width: 8px;
+  }
+
+  .box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+    height: 32px;
+    width: 32px;
+  }
+
+  .line1, .line2, .line3, .line4, .line5{
+    width: 56px;
+  }
+
+  #draggable2, #draggable5, #draggable8, #draggable15,
+  #draggable23, #draggable26, #draggable29, #draggable21,
+   #draggable4, #draggable18, #draggable16, #draggable22{
+    display: none;
+  }
+
+  #draggable1 {
+    margin-left: 20vw;
+    margin-top: -2vh;
+  }
+
+  #draggable3 {
+    margin-left: 12vw;
+    margin-top: 22vh;
+  }
+
+  #draggable6 {
+    margin-left: 78vw;
+    margin-top: 96vh;
+  }
+
+  #draggable7{
+    margin-left: 45vw;
+    margin-top: 10vh;
+  }
+
+  #draggable9{
+    margin-left: 22vw;
+    margin-top: 18vh;
+  }
+
+  #draggable10{
+    margin-left: 60vw;
+    margin-top: 28vh;
+  }
+
+  #draggable11{
+    margin-left: 84vw;
+    margin-top: 3vh;
+  }
+
+  #draggable13{
+    margin-left: 6vw;
+    margin-top: 82vh
+  }
+
+  #draggable17{
+    margin-left: 66vw;
+    margin-top: 12vh;
+  }
+
+  #draggable19{
+    margin-left: 6vw;
+    margin-top: 74vh;
+  }
+
+  #draggable28 {
+    margin-left: 64vw;
+    margin-top: 74vh;
+  }
+
+  #draggable20{
+    margin-left: 20vw;
+    margin-top: 94vh;
+  }
+
+  #draggable24{
+    margin-left: 50vw;
+    margin-top: 88vh;
+  }
+
+  #draggable25 {
+    margin-left: 88vw;
+    margin-top: 84vh;
+  }
+
+  #draggable30{
+    margin-left: 96vw;
+    margin-top: 74vh;
+  }
+
+  .one1{
+    font-size: 34px;
+    line-height: 34px;
+    width: 340px;
+  }
+
+  .fibut{
+    width: 270px;
+    height: 48px;
+    margin-top: -53px;
+  }
+
+  .obvodka1{
+    width: 280px;
+    height: 58px;
+  }
+
+  .onebtn{
+    margin-top: 32px;
+  }
+
+  a{
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  /* ___________________ 2 экран _________________ */
+
+  .ramka{
+    position: absolute;
+    left: 30px;
+    top: 160px;
+    width: 240px;
+    height: 56px;
+  }
+
+  .inp1{
+    position: absolute;
+    top: 168px;
+    left: 46px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  /* ___________________ заголовки и цифры на всех экранов _________________ */
+
+  h2{
+    font-size: 34px;
+    line-height: 1;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 240px;
+  }
+
+  h4{
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+  }
+
+  .zyfraone{
+    display: none;
+  }
+
+  .zyfratwo{
+    display: none;
+  }
+
+  /* ___________________ кнопки всех экранов _________________ */
+
+  .obvodka2, .obvodka3, .obvodka4, .obvodka5,
+  .obvodka22, .obvodka33, .obvodka44, .obvodka55{
+    width: 90vw;
+    height: 58px;
+    position: absolute;
+    bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    left: 5vw;
+
+  }
+
+  .sebut, .sebut1{
+    position: absolute;
+    bottom: 35px;
+    width: 60vw;
+    left: 8vw;
+    height: 48px;
+  }
+
+  .stl, .stl1{
+    position: absolute;
+    bottom: 35px;
+    width: 24vw;
+    height: 48px;
+    right: 8vw;
+  }
+
+  /* _________________ квадраты всех экранов___________________ */
+
+  #draggable31{
+    margin-left: 70vw;
+    margin-top: 80vh;
+
+  }
+
+  #draggable32{
+    margin-left: 26vw;
+    margin-top: 78vh;
+  }
+
+  #draggable34{
+    margin-left: 86vw;
+    margin-top: 4vh;
+
+  }
+
+  #draggable35{
+    margin-left: 96vw;
+    margin-top: 74vh;
+  }
+
+  #draggable37{
+    margin-left: 94vw;
+    margin-top: 22vh;
+  }
+
+  /* _________________ квадраты с обводкой для средних экранов ___________________ */
+
+  #draggable33 {
+    margin-left: -1vw;
+    margin-top: 72vh;
+
+  }
+
+  #draggable36 {
+    margin-left: 92vw;
+    margin-top: 12vh;
+  }
+
+
+  /* ___________________ 3 экран _________________ */
 }

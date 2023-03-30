@@ -8,6 +8,7 @@ $(document).ready(function(){
     $(".ff").click(function(){
         $( ".sebut1" ).remove();
         $( ".stl1" ).remove();
+        $( ".obvodka22" ).remove();
     });
 
     $(".sebut").click(function(){
@@ -72,6 +73,49 @@ $(document).ready(function(){
 
 /* _________________ кнопки___________________ */
 
+/* _______ 1 экран _______ */
+
+/* _______ 2 экран _______ */
+
+$(".stl").mouseover(function(){
+  $(".sebut").addClass("btnactive");
+  $(".obvodka2").addClass("obact");
+});
+
+$(".stl").mouseout(function(){
+  $(".sebut").removeClass("btnactive");
+  $(".obvodka2").removeClass("obact");
+});
+
+$(".sebut").mouseover(function(){
+  $(".stl").addClass("btnactive");
+  $(".obvodka2").addClass("obact");
+});
+
+$(".sebut").mouseout(function(){
+  $(".stl").removeClass("btnactive");
+  $(".obvodka2").removeClass("obact");
+});
+
+$(".obvodka2").mouseover(function(){
+  $(".stl").addClass("btnactive");
+  $(".sebut").addClass("btnactive");
+});
+
+$(".obvodka2").mouseout(function(){
+  $(".stl").removeClass("btnactive");
+  $(".sebut").removeClass("btnactive");
+});
+
+
+/* _______ 3 экран _______ */
+
+/* _______ 4 экран _______ */
+
+/* _______ 5 экран _______ */
+
+/* _______ 6 экран _______ */
+
     $(".frl").mouseover(function(){
       $(".forb").addClass("btnactive");
     });
@@ -88,21 +132,14 @@ $(document).ready(function(){
       $(".frl").removeClass("btnactive");
     });
 
-    $(".stl").mouseover(function(){
-      $(".sebut").addClass("btnactive");
-    });
 
-    $(".stl").mouseout(function(){
-      $(".sebut").removeClass("btnactive");
-    });
-
-    $(".sebut").mouseover(function(){
-      $(".stl").addClass("btnactive");
-    });
 
     $(".sebut").mouseout(function(){
       $(".stl").removeClass("btnactive");
+      $(".obvodka2").removeClass("obact");
     });
+
+
 
     $(".trl").mouseover(function(){
       $(".tri").addClass("btnactive");
@@ -735,6 +772,76 @@ $(document).ready(function(){
       });
     });
 
+    $(".move-area").mousemove(function(event) {
+      let eye19 = $(".eye19");
+      let x = (eye19.offset().left) + (eye19.width() / 2);
+      let y = (eye19.offset().top) + (eye19.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye19.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye20 = $(".eye20");
+      let x = (eye20.offset().left) + (eye20.width() / 2);
+      let y = (eye20.offset().top) + (eye20.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye20.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye21 = $(".eye21");
+      let x = (eye21.offset().left) + (eye21.width() / 2);
+      let y = (eye21.offset().top) + (eye21.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye21.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye22 = $(".eye22");
+      let x = (eye22.offset().left) + (eye22.width() / 2);
+      let y = (eye22.offset().top) + (eye22.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye22.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye23 = $(".eye23");
+      let x = (eye23.offset().left) + (eye23.width() / 2);
+      let y = (eye23.offset().top) + (eye23.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye23.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
     /* _________________ квадраты с обводкой ___________________ */
 
     $(".move-area").mousemove(function(event) {
@@ -842,6 +949,20 @@ $(document).ready(function(){
         let rad = Math.atan2(event.pageX - x, event.pageY - y);
         let rot = (rad * (180 / Math.PI) * -1) + 180;
           box7.css({
+            '-webkit-transform': 'rotate(' + rot + 'deg)',
+            '-moz-transform': 'rotate(' + rot + 'deg)',
+            '-ms-transform': 'rotate(' + rot + 'deg)',
+            'transform': 'rotate(' + rot + 'deg)'
+          });
+    });
+
+    $(".move-area").mousemove(function(event) {
+        let box8 = $(".box8");
+        let x = (box8.offset().left) + (box8.width() / 2);
+        let y = (box8.offset().top) + (box8.height() / 2);
+        let rad = Math.atan2(event.pageX - x, event.pageY - y);
+        let rot = (rad * (180 / Math.PI) * -1) + 180;
+          box8.css({
             '-webkit-transform': 'rotate(' + rot + 'deg)',
             '-moz-transform': 'rotate(' + rot + 'deg)',
             '-ms-transform': 'rotate(' + rot + 'deg)',
@@ -958,6 +1079,12 @@ $(document).ready(function(){
      $( "#draggable29" ).draggable();
      $( "#draggable30" ).draggable();
      $( "#draggable31" ).draggable();
+     $( "#draggable32" ).draggable();
+     $( "#draggable33" ).draggable();
+     $( "#draggable34" ).draggable();
+     $( "#draggable35" ).draggable();
+     $( "#draggable36" ).draggable();
+     $( "#draggable37" ).draggable();
    });
 
 
