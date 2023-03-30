@@ -109,28 +109,72 @@ $(".obvodka2").mouseout(function(){
 
 
 /* _______ 3 экран _______ */
+$(".trl").mouseover(function(){
+  $(".tri").addClass("btnactive");
+  $(".obvodka3").addClass("obact");
+});
+
+$(".trl").mouseout(function(){
+  $(".tri").removeClass("btnactive");
+  $(".obvodka3").removeClass("obact");
+});
+
+$(".tri").mouseover(function(){
+  $(".trl").addClass("btnactive");
+  $(".obvodka3").addClass("obact");
+});
+
+$(".tri").mouseout(function(){
+  $(".trl").removeClass("btnactive");
+  $(".obvodka3").removeClass("obact");
+});
+
+$(".obvodka3").mouseover(function(){
+  $(".trl").addClass("btnactive");
+  $(".tri").addClass("btnactive");
+});
+
+$(".obvodka3").mouseout(function(){
+  $(".trl").removeClass("btnactive");
+  $(".tri").removeClass("btnactive");
+});
 
 /* _______ 4 экран _______ */
+$(".frl").mouseover(function(){
+  $(".forb").addClass("btnactive");
+  $(".obvodka4").addClass("obact");
+});
+
+$(".frl").mouseout(function(){
+  $(".forb").removeClass("btnactive");
+  $(".obvodka4").removeClass("obact");
+});
+
+$(".forb").mouseover(function(){
+  $(".frl").addClass("btnactive");
+  $(".obvodka4").addClass("obact");
+});
+
+$(".forb").mouseout(function(){
+  $(".frl").removeClass("btnactive");
+  $(".obvodka4").removeClass("obact");
+});
+
+$(".obvodka4").mouseover(function(){
+  $(".frl").addClass("btnactive");
+  $(".forb").addClass("btnactive");
+});
+
+$(".obvodka4").mouseout(function(){
+  $(".frl").removeClass("btnactive");
+  $(".forb").removeClass("btnactive");
+});
 
 /* _______ 5 экран _______ */
 
 /* _______ 6 экран _______ */
 
-    $(".frl").mouseover(function(){
-      $(".forb").addClass("btnactive");
-    });
 
-    $(".frl").mouseout(function(){
-      $(".forb").removeClass("btnactive");
-    });
-
-    $(".forb").mouseover(function(){
-      $(".frl").addClass("btnactive");
-    });
-
-    $(".forb").mouseout(function(){
-      $(".frl").removeClass("btnactive");
-    });
 
 
 
@@ -141,21 +185,7 @@ $(".obvodka2").mouseout(function(){
 
 
 
-    $(".trl").mouseover(function(){
-      $(".tri").addClass("btnactive");
-    });
 
-    $(".trl").mouseout(function(){
-      $(".tri").removeClass("btnactive");
-    });
-
-    $(".tri").mouseover(function(){
-      $(".trl").addClass("btnactive");
-    });
-
-    $(".tri").mouseout(function(){
-      $(".trl").removeClass("btnactive");
-    });
 
     $(".fiveb").mouseover(function(){
       $(".fiverl").addClass("btnactive");
@@ -228,6 +258,7 @@ $(".obvodka2").mouseout(function(){
         $(".rr2").removeClass("rr2a");
         $('.ppp').html('вкус состоит из любви, нежности и поддержки');
         $('.text2').html('вкус объятий');
+        $( ".obvodka44" ).remove();
       });
 
     $(".vkus2").click(function(){
@@ -248,6 +279,7 @@ $(".obvodka2").mouseout(function(){
       $(".rr2").removeClass("rr2a");
       $('.ppp').html('вкус состоит из ожидания, волнения и счастья');
       $('.text2').html('вкус 1 свидания');
+      $( ".obvodka44" ).remove();
     });
 
 
@@ -269,6 +301,7 @@ $(".obvodka2").mouseout(function(){
       $('.ppp').html('вкус состоит из любви, грусти и ностальгии');
       $(".rr2").addClass("rr2a");
       $('.text2').html('вкус родного дома');
+      $( ".obvodka44" ).remove();
     });
 
 
@@ -290,6 +323,7 @@ $(".obvodka2").mouseout(function(){
       $(".rr2").removeClass("rr2a");
       $('.ppp').html('вкус состоит из злости и недовольства');
       $('.text2').html('вкус опозданий');
+      $( ".obvodka44" ).remove();
     });
 
     $(".vkus5").click(function(){
@@ -310,6 +344,7 @@ $(".obvodka2").mouseout(function(){
       $(".frl1").remove();
       $('.ppp').html('вкус состоит из печали и злости');
       $('.text2').html('послевкусие отношений');
+      $( ".obvodka44" ).remove();
     });
 
     $(".vkus6").click(function(){
@@ -330,6 +365,7 @@ $(".obvodka2").mouseout(function(){
       $(".rr2").addClass("rr2a");
       $('.ppp').html('вкус состоит из ожидания и радости');
       $('.text2').html('вкус весеннего ветра');
+      $( ".obvodka44" ).remove();
     });
 
 /* _________________ 3 секция, где выбор ___________________ */
@@ -341,6 +377,7 @@ $(".obvodka2").mouseout(function(){
         $(".krr").removeClass("krra");
         $(".krf").removeClass("krfa");
         $(".kry").addClass("krya");
+
     });
 
     $(".krr").click(function(){
@@ -394,16 +431,19 @@ $(".obvodka2").mouseout(function(){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/11.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".kry").hasClass("krya") && $(".i2").hasClass("ia1")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/21.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".kry").hasClass("krya") && $(".i3").hasClass("ia1")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/31.png");
+        $( ".obvodka33" ).remove();
       }
     });
 
@@ -412,18 +452,21 @@ $(".obvodka2").mouseout(function(){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/12.png");
+        $( ".obvodka33" ).remove();
 
       }
       if($(".krr").hasClass("krra") && $(".i2").hasClass("ia1")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/22.png");
+        $( ".obvodka33" ).remove();
       }
 
       if($(".krr").hasClass("krra") && $(".i3").hasClass("ia1")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/32.png");
+        $( ".obvodka33" ).remove();
       }
 
     });
@@ -433,16 +476,19 @@ $(".obvodka2").mouseout(function(){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/13.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".krf").hasClass("krfa") && $(".i2").hasClass("ia1")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/23.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".krf").hasClass("krfa") && $(".i3").hasClass("ia1")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/33.png");
+        $( ".obvodka33" ).remove();
       }
     });
 
@@ -451,18 +497,21 @@ $(".obvodka2").mouseout(function(){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/11.png");
+        $( ".obvodka33" ).remove();
       }
 
       if($(".i1").hasClass("ia1") && $(".krr").hasClass("krra")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/12.png");
+        $( ".obvodka33" ).remove();
 
       }
       if($(".i1").hasClass("ia1") && $(".krf").hasClass("krfa")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/13.png");
+        $( ".obvodka33" ).remove();
       }
     });
 
@@ -471,16 +520,19 @@ $(".obvodka2").mouseout(function(){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/21.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".i2").hasClass("ia1") && $(".krr").hasClass("krra")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/22.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".i2").hasClass("ia1") && $(".krf").hasClass("krfa")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/23.png");
+        $( ".obvodka33" ).remove();
       }
 
     });
@@ -490,16 +542,19 @@ $(".obvodka2").mouseout(function(){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/31.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".i3").hasClass("ia1") && $(".krr").hasClass("krra")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/32.png");
+        $( ".obvodka33" ).remove();
       }
       if($(".i3").hasClass("ia1") && $(".krf").hasClass("krfa")){
         $( ".trl1" ).remove();
         $( ".tri1" ).remove();
         $(".im11").attr("src","img/33.png");
+        $( ".obvodka33" ).remove();
       }
     });
 
