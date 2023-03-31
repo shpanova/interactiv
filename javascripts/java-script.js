@@ -172,66 +172,39 @@ $(".obvodka4").mouseout(function(){
 
 /* _______ 5 экран _______ */
 
+$(".fiveb").mouseover(function(){
+  $(".fiverl").addClass("btnactive");
+  $(".obvodka5").addClass("obact");
+});
+
+$(".fiveb").mouseout(function(){
+  $(".fiverl").removeClass("btnactive");
+  $(".obvodka5").removeClass("obact");
+});
+
+$(".fiverl").mouseover(function(){
+  $(".fiveb").addClass("btnactive");
+  $(".obvodka5").addClass("obact");
+});
+
+$(".fiverl").mouseout(function(){
+  $(".fiveb").removeClass("btnactive");
+  $(".obvodka5").removeClass("obact");
+});
+
+$(".obvodka5").mouseover(function(){
+  $(".fiveb").addClass("btnactive");
+  $(".fiverl").addClass("obact");
+});
+
+$(".obvodka5").mouseout(function(){
+  $(".fiveb").removeClass("btnactive");
+  $(".fiverl").removeClass("obact");
+});
+
 /* _______ 6 экран _______ */
 
-
-
-
-
-    $(".sebut").mouseout(function(){
-      $(".stl").removeClass("btnactive");
-      $(".obvodka2").removeClass("obact");
-    });
-
-
-
-
-
-    $(".fiveb").mouseover(function(){
-      $(".fiverl").addClass("btnactive");
-      $(".obvodka5").addClass("obact");
-    });
-
-    $(".fiveb").mouseout(function(){
-      $(".fiverl").removeClass("btnactive");
-      $(".obvodka5").removeClass("obact");
-    });
-
-    $(".fiverl").mouseover(function(){
-      $(".fiveb").addClass("btnactive");
-      $(".obvodka5").addClass("obact");
-    });
-
-    $(".fiverl").mouseout(function(){
-      $(".fiveb").removeClass("btnactive");
-      $(".obvodka5").removeClass("obact");
-    });
-
-    $(".obvodka5").mouseover(function(){
-      $(".fiveb").addClass("btnactive");
-      $(".fiverl").addClass("obact");
-    });
-
-    $(".obvodka5").mouseout(function(){
-      $(".fiveb").removeClass("btnactive");
-      $(".fiverl").removeClass("obact");
-    });
-
-
-
-
-
-  //   if (condition1) {
-  // // блок кода, который выполняется, если условие condition1 истинно
-  // } else if (condition2) {
-  // // блок кода, который выполняется, если условие condition2 истинно
-  // } else if (condition3) {
-  // // блок кода, который выполняется, если условие condition3 истинно
-  // } else {
-  // // блок кода, который выполняется, если предыдущие условия ложны
-  // }
-
-    $( "input" )
+  $( "input" )
     .keyup(function() {
       var value = $( this ).val();
       $( "p" ).text( value );
@@ -277,7 +250,7 @@ $(".obvodka4").mouseout(function(){
       $(".forb1").remove();
       $(".frl1").remove();
       $(".rr2").removeClass("rr2a");
-      $('.ppp').html('вкус состоит из ожидания, волнения и счастья');
+      $('.ppp').html('вкус состоит из волнения и счастья');
       $('.text2').html('вкус 1 свидания');
       $( ".obvodka44" ).remove();
     });
